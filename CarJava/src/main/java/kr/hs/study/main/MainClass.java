@@ -12,7 +12,7 @@ public class MainClass {
 		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(JavaConfig.class);
 		
 		Hyundai car1 = ctx.getBean("car1", Hyundai.class);
-		System.out.println("가격 : " + car1.money(1000));
+		System.out.println("돈 : " + car1.money(1000));
 		car1.order();
 		System.out.println("name : " + car1.getName());
 		System.out.println("color : " + car1.getColor());

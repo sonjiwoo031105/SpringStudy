@@ -11,7 +11,7 @@ public class Hyundai implements Car{
 	}
 
 	public void order() {
-		System.out.println(name + " 주문하다");
+		System.out.println(name + " 아반떼");
 	}
 
 	public String getName() {
