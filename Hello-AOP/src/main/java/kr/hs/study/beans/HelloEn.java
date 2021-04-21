@@ -1,8 +1,9 @@
 package kr.hs.study.beans;
 
 public class HelloEn implements Hello {
-	public void Hi1() {
+	public int Hi1() {
 		System.out.println("Hi1");
+		return 100;
 	}
 	public void Hi2() {
 		System.out.println("Hi2");
