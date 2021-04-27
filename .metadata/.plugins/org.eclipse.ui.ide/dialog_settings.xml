@@ -77,6 +77,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\jiji4\Downloads\SpringJDBC"/>
 			<item value="C:\Users\jiji4\Study\Spring\SpringStudy\ConstructorDI"/>
 			<item value="C:\Users\jiji4\Study\Spring\SpringStudy\HelloPrj"/>
 			<item value="C:\Users\jiji4\Study\Spring\SpringStudy\JavaConfiguration"/>
