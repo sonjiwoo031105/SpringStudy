@@ -14,8 +14,6 @@ public class MainClass {
 		
 		TestBean t1 = ctx.getBean("obj1", TestBean.class);
 		System.out.println("t1 : " + t1);
-		TestBean t2 = ctx.getBean("obj1", TestBean.class);
-		System.out.println("t2 : " + t2);
 		
 		ctx.close();
 	}
