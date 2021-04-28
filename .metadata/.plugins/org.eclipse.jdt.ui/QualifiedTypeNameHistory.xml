@@ -14,7 +14,6 @@
     <fullyQualifiedTypeName name="org.springframework.context.annotation.EnableMBeanExport"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.Hyundai"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="kr.hs.study.config.JavaConfig"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean1"/>
@@ -24,4 +23,12 @@
     <fullyQualifiedTypeName name="org.aspectj.lang.ProceedingJoinPoint"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.HelloJp"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.HelloEn"/>
+    <fullyQualifiedTypeName name="kr.hs.study.dto.LoginDTO"/>
+    <fullyQualifiedTypeName name="javax.swing.tree.RowMapper"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
 </qualifiedTypeNameHistroy>
