@@ -7,7 +7,6 @@
     <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
     <fullyQualifiedTypeName name="javax.annotation.PreDestroy"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean2"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean3"/>
@@ -15,7 +14,6 @@
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.Hyundai"/>
     <fullyQualifiedTypeName name="kr.hs.study.config.JavaConfig"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean1"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.HelloKr"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
@@ -31,4 +29,7 @@
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.Kia"/>
 </qualifiedTypeNameHistroy>

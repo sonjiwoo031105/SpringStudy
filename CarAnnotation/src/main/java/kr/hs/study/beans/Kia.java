@@ -1,5 +1,7 @@
 package kr.hs.study.beans;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -11,7 +13,8 @@ public class Kia implements Car{
 	public Kia() {
 		
 	}
-	public Kia(String name, String color, int price) {
+	@Autowired
+	public Kia(@Value("k5")String name, @Value("red")String color, @Value("1000")int price) {
 		this.name = name;
 		this.color = color;
 		this.price = money(price);

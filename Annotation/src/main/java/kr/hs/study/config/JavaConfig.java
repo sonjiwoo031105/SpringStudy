@@ -14,7 +14,4 @@ public class JavaConfig {
 		tb3.setData1(600);
 		return tb3;
 	}
-	
-
-
 }

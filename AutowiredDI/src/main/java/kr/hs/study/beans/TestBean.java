@@ -10,7 +10,7 @@ public class TestBean {
 	private DataBean3 data3;
 	//@Autowired
 	private DataBean4 data4;
-	@Autowired
+	
 	// @Qualifier : 이름으로 주입
 	// @Autowire : 타입으로 주입
 	private DataBean4 data5;
@@ -21,6 +21,7 @@ public class TestBean {
 		this.data3 = data3;
 		this.data4 = data4;
 	}*/
+	@Autowired
 	public TestBean(@Value("100")int data1, @Value("spring1")String data2, DataBean3 data3, DataBean4 data4) {
 		super();
 		this.data1 = data1;

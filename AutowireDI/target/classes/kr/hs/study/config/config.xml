@@ -15,7 +15,12 @@
 	<!-- <bean id="data2" class="kr.hs.study.beans.DataBean1" scope="prototype"/> -->
 	<bean id="t2" class="kr.hs.study.beans.TestBean1" autowire="byType"/>
 	
-	<bean id="t3" class="kr.hs.study.beans.TestBean2" autowire="byName"/>
+	<bean id="t3" class="kr.hs.study.beans.TestBean2" autowire="byName">
+		<constructor-arg value="10" index="0" />
+		<constructor-arg value="spring1" index="1" />
+		<constructor-arg ref="data3" />
+		<constructor-arg ref="data4" />
+	</bean>
 	<bean id="data3" class="kr.hs.study.beans.DataBean2" scope="prototype"/>
 	<bean id="data4" class="kr.hs.study.beans.DataBean2" scope="prototype"/>
 	
